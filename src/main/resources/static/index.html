@@ -1,0 +1,89 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>Home page</title>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<link rel="stylesheet" href="style.css">
+</head>  
+<body>  
+<p>  
+
+<fieldset id="addBook">
+    <legend>Add book</legend>
+    <label for="newBookId">
+        Book ID:
+        <input type="text" id="newBookId">
+    </label>
+    <label for="newBookTitle">
+        Book Title:
+        <input type="text" id="newBookTitle">
+    </label>
+    <label for="newBookAuthorName">
+        Book Author:
+        <input type="text" id="newBookAuthorName">
+    </label>
+    <label for="newBookPrice">
+        Book Price:
+        <input type="text" id="newBookPrice">
+    </label>    
+    <label for="newBookDatePublished">
+        Book Published Date:
+        <input type="text" id="newBookDatePublished">
+    </label>
+    <button>Add</button>
+</fieldset>
+
+<fieldset id="findSingleBook">
+    <legend>Find single book</legend>
+    <label for="bookId">
+        Book ID:
+        <input type="text" id="bookId">
+    </label>
+    <button>Find Single Book</button>
+    <div class="output"></div>    
+</fieldset>
+
+<fieldset id="findAllBooks">
+    <legend>Find all books</legend>
+    <button>Find all books</button>
+    <div class="output"></div>
+</fieldset>
+
+<fieldset id="removeBook">
+    <legend>Delete book</legend>
+    <label for="bookId">
+        Book ID:
+        <input type="text" id="bookId">
+    </label>
+    <button>Delete</button>
+</fieldset>
+
+<fieldset id="editBook">
+    <legend>Edit book</legend>
+    <label for="editBookId">
+        Book ID:
+        <input type="text" id="editBookId">
+    </label>
+    <label for="editBookTitle">
+        Book Title:
+        <input type="text" id="editBookTitle">
+    </label>
+    <label for="editBookAuthorName">
+        Book Author:
+        <input type="text" id="editBookAuthorName">
+    </label>
+    <label for="editBookPrice">
+        Book Price:
+        <input type="text" id="editBookPrice">
+    </label>   
+    <label for="editBookDatePublished">
+        Book Published Date:
+        <input type="date" id="editBookDatePublished">
+    </label> 
+    <button>Edit by id</button>
+</fieldset>
+
+<script src="app.js"></script>
+</body>  
+</html>  
